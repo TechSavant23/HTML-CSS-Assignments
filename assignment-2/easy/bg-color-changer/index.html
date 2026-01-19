@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG Color Changer</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        function redColorFunction() {
+            document.body.style.backgroundColor="red";
+        }
+        function blackColorFunction() {
+            document.body.style.backgroundColor="black";
+        }
+        function blueColorFunction() {
+            document.body.style.backgroundColor="blue";
+        }
+        function yellowColorFunction() {
+            document.body.style.backgroundColor="yellow";
+        }
+        function greenColorFunction() {
+            document.body.style.backgroundColor="green";
+        }
+        function purpleColorFunction() {
+            document.body.style.backgroundColor="purple";
+        }
+        function orangeColorFunction() {
+            document.body.style.backgroundColor="orange";
+        }
+    </script>
+</head>
+<body>
+    <div class="appbar" style="display: flex; justify-content: space-around; margin-top: 50px;">
+        <button onclick="redColorFunction()" class="button" style="background-color: red;">
+            Red
+        </button >
+        <button onclick="blackColorFunction()" class="button" style="background-color: black; color: white;">
+            Black
+        </button>
+        <button onclick="blueColorFunction()" class="button" style="background-color: blue;">
+            Blue
+        </button>
+        <button onclick="yellowColorFunction()" class="button" style="background-color: yellow;">
+            Yellow
+        </button>
+        <button onclick="greenColorFunction()" class="button" style="background-color: green;">
+            Green
+        </button>
+        <button onclick="purpleColorFunction()" class="button" style="background-color: purple;">
+            Purple
+        </button>
+        <button onclick="orangeColorFunction()" class="button" style="background-color: orange;">
+            Orange
+        </button>
+    </div>
+</body>
+</html>

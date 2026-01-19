@@ -1,0 +1,17 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.appbar{
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 20px solid black;
+}
+
+.button{
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
