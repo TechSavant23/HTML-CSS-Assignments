@@ -22,3 +22,42 @@ body {
   font-weight: 600;
   font-size: 32px;
 }
+
+input{
+  border: none;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 16px;
+}
+
+input:focus{
+  outline: 1px solid black;
+}
+
+input:hover {
+  outline: 1px solid #242426;  
+}
+
+.google_btn {
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background: transparent;
+}
+
+.google_btn:hover {
+  border-color: #A6A6AE;
+  cursor: pointer;
+}
+
+.signup_btn:hover{
+  background-color: #323235;
+}
+
+.signIn:hover{
+  text-decoration-line: underline;
+  text-decoration-color: #2e2e2e;
+  cursor: pointer;
+}
